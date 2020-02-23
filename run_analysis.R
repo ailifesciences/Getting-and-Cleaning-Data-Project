@@ -67,8 +67,3 @@ meltedData <- melt(DATA, id = c("Subject", "Activity"))
 tidyData <- dcast(meltedData, Subject + Activity ~ variable, mean)
 
 write.table(tidyData, "./tidy_dataset.txt", row.names = FALSE, quote = FALSE)
-
-#Producing codebook
-library(knitr)
-knit2html("codebook.md")
-
