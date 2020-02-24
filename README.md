@@ -1,4 +1,6 @@
 # Getting-and-Cleaning-Data-Project
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
+
 The script does the following:
 1. Download the files from the UCI repository
 2. Load train and test files for "Activity", "Subject" and "Features"
